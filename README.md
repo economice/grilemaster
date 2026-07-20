@@ -1,1 +1,1 @@
-Good luck & have fun!
+Pentru probleme: economice@ulbsibiu.ro
