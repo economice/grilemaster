@@ -93,7 +93,7 @@
   }
   #score b.good { color: var(--good); }
   #score b.bad { color: var(--bad); }
-  button#reset, button#shuffle, button#theme {
+  button#reset, button#theme, button#test {
     font-size: 13px;
     padding: 6px 12px;
     border-radius: 8px;
@@ -102,8 +102,8 @@
     color: var(--text);
     cursor: pointer;
   }
-  button#reset:hover, button#shuffle:hover, button#theme:hover { border-color: var(--accent); color: var(--accent); }
-  button#shuffle.activ {
+  button#reset:hover, button#theme:hover, button#test:hover { border-color: var(--accent); color: var(--accent); }
+  button#test.activ {
     background: var(--accent);
     border-color: var(--accent);
     color: #fff;
@@ -186,7 +186,7 @@
     <button id="btn-ro">Română</button>
     <button id="btn-en">English</button>
   </div>
-  <button id="shuffle">Aleatoriu</button>
+  <button id="test">Test (20)</button>
   <button id="reset">Reset</button>
   <button id="theme" title="Dark / Light">🌙</button>
   <span id="score"></span>
@@ -199,19 +199,26 @@ const DATA = {"ro": [{"numar": 1, "materie": "Microeconomie", "intrebare": "Pres
 const UI = {
   ro: { corect: '✔ Corect!', gresit: c => `✘ Greșit — răspunsul corect este ${c}.`,
         scor: (ok, wrong, done, total) => `<b class="good">${ok} corecte</b> · <b class="bad">${wrong} greșite</b> · ${done}/${total}`,
-        reset: 'Reset', shuffle: 'Aleatoriu' },
+        reset: 'Reset', test: 'Test (20)' },
   en: { corect: '✔ Correct!', gresit: c => `✘ Wrong — the correct answer is ${c}.`,
         scor: (ok, wrong, done, total) => `<b class="good">${ok} correct</b> · <b class="bad">${wrong} wrong</b> · ${done}/${total}`,
-        reset: 'Reset', shuffle: 'Random' }
+        reset: 'Reset', test: 'Test (20)' }
 };
 
 const lista = document.getElementById('lista');
 const scoreEl = document.getElementById('score');
 const btns = { ro: document.getElementById('btn-ro'), en: document.getElementById('btn-en') };
-const shuffleBtn = document.getElementById('shuffle');
+const testBtn = document.getElementById('test');
+const NR_TEST = 20;
 let lang = 'ro';
-let shuffled = false;
+let testMode = false;
+let testIdx = [];
 let stats = { ok: 0, wrong: 0, total: 0 };
+
+function genTest() {
+  const n = DATA[lang].length;
+  testIdx = shuffleArray([...Array(n).keys()]).slice(0, NR_TEST);
+}
 
 function shuffleArray(arr) {
   const a = arr.slice();
@@ -250,17 +257,18 @@ function updateScore() {
 function render() {
   btns.ro.classList.toggle('activ', lang === 'ro');
   btns.en.classList.toggle('activ', lang === 'en');
-  shuffleBtn.classList.toggle('activ', shuffled);
-  shuffleBtn.textContent = UI[lang].shuffle;
+  testBtn.classList.toggle('activ', testMode);
+  testBtn.textContent = UI[lang].test;
   document.documentElement.lang = lang;
-  const intrebari = shuffled ? shuffleArray(DATA[lang]) : DATA[lang];
+  const faraNumere = testMode;
+  const intrebari = testMode ? testIdx.map(i => DATA[lang][i]) : DATA[lang];
   lista.innerHTML = '';
   stats = { ok: 0, wrong: 0, total: intrebari.length };
   updateScore();
 
   let sectCurenta = null;
   intrebari.forEach(q => {
-    if (!shuffled && q.materie && q.materie !== sectCurenta) {
+    if (!faraNumere && q.materie && q.materie !== sectCurenta) {
       sectCurenta = q.materie;
       const h = document.createElement('div');
       h.className = 'sectiune-titlu';
@@ -273,7 +281,7 @@ function render() {
 
     const qEl = document.createElement('div');
     qEl.className = 'intrebare';
-    if (!shuffled) qEl.innerHTML = `<span class="nr">${q.numar}.</span>`;
+    if (!faraNumere) qEl.innerHTML = `<span class="nr">${q.numar}.</span>`;
     const sv = splitSubvariante(q.intrebare);
     qEl.appendChild(document.createTextNode(sv ? sv.stem : q.intrebare));
     if (sv) {
@@ -352,8 +360,8 @@ themeBtn.addEventListener('click', () => {
 
 btns.ro.addEventListener('click', () => { if (lang !== 'ro') { lang = 'ro'; render(); } });
 btns.en.addEventListener('click', () => { if (lang !== 'en') { lang = 'en'; render(); } });
-shuffleBtn.addEventListener('click', () => { shuffled = !shuffled; render(); });
-document.getElementById('reset').addEventListener('click', render);
+testBtn.addEventListener('click', () => { testMode = !testMode; if (testMode) genTest(); render(); });
+document.getElementById('reset').addEventListener('click', () => { if (testMode) genTest(); render(); });
 render();
 
 (function contorVizite() {
