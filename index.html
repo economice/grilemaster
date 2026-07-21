@@ -125,6 +125,9 @@
   }
   .intrebare { font-weight: 600; margin-bottom: 12px; }
   .intrebare .nr { color: var(--accent); margin-right: 6px; }
+  .subvar { margin: 8px 0 0 2px; }
+  .subvar-item { display: flex; gap: 8px; margin-top: 4px; font-weight: 500; }
+  .subvar-item .sv-lit { flex: 0 0 auto; color: var(--accent); font-weight: 700; }
   .opt {
     display: flex;
     gap: 10px;
@@ -219,6 +222,26 @@ function shuffleArray(arr) {
   return a;
 }
 
+// desparte enunturile cu subvariante inline (a. b. c. ...) in stem + lista
+function splitSubvariante(text) {
+  const re = /(^|\s)([a-z])\.\s/g;
+  let m, markers = [];
+  let expected = 'a';
+  while ((m = re.exec(text)) !== null) {
+    if (m[2] === expected) {
+      markers.push({ letter: m[2], start: m.index + m[1].length, textStart: re.lastIndex });
+      expected = String.fromCharCode(expected.charCodeAt(0) + 1);
+    }
+  }
+  if (markers.length < 2) return null;
+  const stem = text.slice(0, markers[0].start).trim();
+  const items = markers.map((mk, i) => {
+    const end = i + 1 < markers.length ? markers[i + 1].start : text.length;
+    return { letter: mk.letter, text: text.slice(mk.textStart, end).trim() };
+  });
+  return { stem, items };
+}
+
 function updateScore() {
   const done = stats.ok + stats.wrong;
   scoreEl.innerHTML = UI[lang].scor(stats.ok, stats.wrong, done, stats.total);
@@ -251,7 +274,23 @@ function render() {
     const qEl = document.createElement('div');
     qEl.className = 'intrebare';
     if (!shuffled) qEl.innerHTML = `<span class="nr">${q.numar}.</span>`;
-    qEl.appendChild(document.createTextNode(q.intrebare));
+    const sv = splitSubvariante(q.intrebare);
+    qEl.appendChild(document.createTextNode(sv ? sv.stem : q.intrebare));
+    if (sv) {
+      const box = document.createElement('div');
+      box.className = 'subvar';
+      sv.items.forEach(it => {
+        const row = document.createElement('div');
+        row.className = 'subvar-item';
+        const lit = document.createElement('span');
+        lit.className = 'sv-lit';
+        lit.textContent = it.letter + '.';
+        row.appendChild(lit);
+        row.appendChild(document.createTextNode(it.text));
+        box.appendChild(row);
+      });
+      qEl.appendChild(box);
+    }
     card.appendChild(qEl);
 
     const optBtns = {};

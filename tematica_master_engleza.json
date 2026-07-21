@@ -1,0 +1,842 @@
+[
+  {
+    "numar": 1,
+    "materie": "Microeconomics",
+    "intrebare": "Suppose the supply for product A is perfectly elastic. If the demand for this product increases:",
+    "raspunsuri": {
+      "A": "the equilibrium price and quantity will increase;",
+      "B": "the equilibrium price and quantity will decrease;",
+      "C": "the equilibrium quantity will increase but the price will not change;",
+      "D": "the equilibrium price will increase but the quantity will not change."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 2,
+    "materie": "Microeconomics",
+    "intrebare": "If the coefficient of income elasticity of demand is higher than 1 and the revenue increases, the share of expenditures for commodity X in total expenditure:",
+    "raspunsuri": {
+      "A": "will increase;",
+      "B": "will decrease;",
+      "C": "will remain constant;",
+      "D": "can not be determined."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 3,
+    "materie": "Microeconomics",
+    "intrebare": "If the demand for agricultural products is inelastic:",
+    "raspunsuri": {
+      "A": "as the prices decrease, the revenues earned by producers increase;",
+      "B": "as the prices decrease, the revenues earned by producers decrease;",
+      "C": "rising prices do not lead to differentiation in producers' incomes;",
+      "D": "the percentage decrease in prices is lower than the percentage increase in demand."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 4,
+    "materie": "Microeconomics",
+    "intrebare": "For a rational consumer who has to choose between two goods in the context of budget constraints, the price change of one of the goods, caeteris paribus, will determine:",
+    "raspunsuri": {
+      "A": "a parallel shift of the budget line to the left;",
+      "B": "a change in the slope of the budget line;",
+      "C": "no change in the budget line;",
+      "D": "a parallel shift of budget line to the right."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 5,
+    "materie": "Microeconomics",
+    "intrebare": "The price of the product A was reduced from 100 to 90 lei and, as a result, the quantity demanded has increased from 70 to 75 units. The demand is:",
+    "raspunsuri": {
+      "A": "inelastic;",
+      "B": "elastic;",
+      "C": "unit elastic;",
+      "D": "can not be determined from the given information."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 6,
+    "materie": "Microeconomics",
+    "intrebare": "Choose the false statement:",
+    "raspunsuri": {
+      "A": "in general, the demand for necessity goods is less elastic than demand for luxury goods;",
+      "B": "if the price and the producers` income are directly proportional, the demand is elastic;",
+      "C": "after a long period of time since the change in the price of the good A, supply becomes more elastic;",
+      "D": "for a company whose production process involves making two goods, one main and the other secondary, if the price of the main good increases, - caeteris paribus - the supply on the secondary good`s market will increase (and vice versa)."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 7,
+    "materie": "Microeconomics",
+    "intrebare": "If the demand curve for product A moves to the right, and the price of product B decreases, it can be concluded that:",
+    "raspunsuri": {
+      "A": "A and B are substitute goods;",
+      "B": "A and B are complementary goods;",
+      "C": "A is an inferior good, and B is a superior good;",
+      "D": "Both goods A and B are inferior."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 8,
+    "materie": "Microeconomics",
+    "intrebare": "Suppose the price of a good decreases by 10% and the quantity demanded for a certain period of time increases by 15%. In these conditions:",
+    "raspunsuri": {
+      "A": "the revenues earned by producers decrease;",
+      "B": "the revenues earned by producers increase;",
+      "C": "the revenues are not influenced in any way;",
+      "D": "the company's expenses rise."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 9,
+    "materie": "Microeconomics",
+    "intrebare": "If a price increase of 50% results in an increase in the quantity supplyed of an economic good from 10 to 20 pieces, calculate the coefficient of price elasticity of supply.",
+    "raspunsuri": {
+      "A": "¼.",
+      "B": "½;",
+      "C": "1;",
+      "D": "2."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 10,
+    "materie": "Microeconomics",
+    "intrebare": "The total utility coincides with the marginal utility:",
+    "raspunsuri": {
+      "A": "for the first unit consumed;",
+      "B": "only for the irrational consumer;",
+      "C": "at the level of the last unit consumed;",
+      "D": "at the saturation point."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 11,
+    "materie": "Microeconomics",
+    "intrebare": "The indifference curve means:",
+    "raspunsuri": {
+      "A": "equal consumption of two goods;",
+      "B": "equal utility from the consumption of two combinations of goods;",
+      "C": "equal consumer income;",
+      "D": "equal prices of the goods consumed."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 12,
+    "materie": "Microeconomics",
+    "intrebare": "The points located at the intersection of the budget line with the coordinate axes mean:",
+    "raspunsuri": {
+      "A": "the consumer does not spend all his income;",
+      "B": "the consumer spends all his income for only one good;",
+      "C": "the consumer spends absolutely nothing;",
+      "D": "these are points impossible to reach by the consumer."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 13,
+    "materie": "Microeconomics",
+    "intrebare": "An economic agent contracts a loan of 15.000 lei, which he will repay in three equal annual installments. What will be the total interest paid, knowing that the annual interest rate is 12% per year?",
+    "raspunsuri": {
+      "A": "3.600 lei;",
+      "B": "1.800 lei;",
+      "C": "5.400 lei;",
+      "D": "1.500 lei."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 14,
+    "materie": "Microeconomics",
+    "intrebare": "An economic agent makes a bank deposit of 10.000 lei with an interest rate of 5%. What will be the amount in the bank after 2 years, if the economic agent does not make withdrawals from the account created during this period?",
+    "raspunsuri": {
+      "A": "11.000 lei;",
+      "B": "1.000 lei;",
+      "C": "11.025 lei;",
+      "D": "500 lei."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 15,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following statements are false?",
+    "raspunsuri": {
+      "A": "information, the entrepreneur's ability, technical progress are neo-factors of production;",
+      "B": "according to the stages of the circular flow of the company's capital, it takes three forms: money, capital goods and commodity;",
+      "C": "fixed capital depreciation is only due to physical deterioration;",
+      "D": "the factors of production are resources attracted and used in economic activity."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 16,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following aspects distinguish fixed capital from working capital: a. the number of cycles of production they participate in; b. the location of the production activity; c. the period of time after which they are replaced; d. the way they transmit their value to the new product.",
+    "raspunsuri": {
+      "A": "(a,d)",
+      "B": "(c,d)",
+      "C": "(a,c,d)",
+      "D": "(b,c,d)"
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 17,
+    "materie": "Microeconomics",
+    "intrebare": "The following data is given for a company: material costs 89 mil; working capital 45 mil; indirect salaries 10 mil; fixed costs 90 mil.; variable costs 52 mil. Calculate fixed material costs and depreciation:",
+    "raspunsuri": {
+      "A": "60 and 64;",
+      "B": "70 and 56;",
+      "C": "80 and 44;",
+      "D": "89 and 45."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 18,
+    "materie": "Microeconomics",
+    "intrebare": "Fixed cost includes: a. expenditures for the salaries of the administrative staff; b. expenditure for depreciation of fixed capital; c. energy costs for manufacturing; d. expenditure for general lighting.",
+    "raspunsuri": {
+      "A": "(a,b,c)",
+      "B": "(a,b,d)",
+      "C": "(a,c,d)",
+      "D": "(b,c,d)"
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 19,
+    "materie": "Microeconomics",
+    "intrebare": "When production volume is zero: a. the fixed cost is 0; b. the variable cost is 0; c. the fixed cost is higher than the variable cost; d. the variable cost is higher than the fixed cost.",
+    "raspunsuri": {
+      "A": "(a,b,c)",
+      "B": "(b,c,d)",
+      "C": "(b,c)",
+      "D": "(a,d)"
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 20,
+    "materie": "Microeconomics",
+    "intrebare": "Calculate the average fixed cost (AFC), for a level of production Q = 20, knowing that the total cost function is: TC = 200 + 3Q + 2Q2.",
+    "raspunsuri": {
+      "A": "1060;",
+      "B": "200;",
+      "C": "20;",
+      "D": "10."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 21,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following statements is false:",
+    "raspunsuri": {
+      "A": "perfect competition involves many sellers of standardized products;",
+      "B": "monopolistic competition involves many sellers of homogeneous products;",
+      "C": "the oligopoly involves several producers of standardized or differentiated products;",
+      "D": "monopoly involves a single product for which there are no close substitutes."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 22,
+    "materie": "Microeconomics",
+    "intrebare": "On the market with perfect competition:",
+    "raspunsuri": {
+      "A": "the firm is a \"price-taker,\" meaning, it takes over the market price;",
+      "B": "the firm is a \"price-maker\", meaning, it determines the market price;",
+      "C": "the companies’ products are differentiated;",
+      "D": "input barriers are minimal, and exit barriers are maximal."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 23,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following conditions indicate that a good is produced under perfect competition:",
+    "raspunsuri": {
+      "A": "producers` profits are high;",
+      "B": "producers` profits are small;",
+      "C": "total supply is inelastic;",
+      "D": "individual demand is perfectly elastic."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 24,
+    "materie": "Microeconomics",
+    "intrebare": "The profit maximization condition for a firm in a market with monopolistic competition is the following (MR is marginal revenue, MC is marginal cost, P is price, ATC is average total cost, TR is total revenue):",
+    "raspunsuri": {
+      "A": "MR = MC;",
+      "B": "MC = P;",
+      "C": "MR = ATC;",
+      "D": "TR to be maximum."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 25,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following statements about monopoly is true:",
+    "raspunsuri": {
+      "A": "there are several companies producing a specific product;",
+      "B": "there is only one producing company, but the product has close substitutes;",
+      "C": "there are no competitors on the relevant market;",
+      "D": "input barriers are low."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 26,
+    "materie": "Microeconomics",
+    "intrebare": "There are differences between monopolistic and perfect competition regarding:",
+    "raspunsuri": {
+      "A": "market entry;",
+      "B": "the number of sellers and buyers;",
+      "C": "the market power of competitors;",
+      "D": "homogeneity of products."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 27,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following can be considered as the basic features of public goods:",
+    "raspunsuri": {
+      "A": "are state-owned;",
+      "B": "are characterized by non-excludability and non-rivalry;",
+      "C": "are characterized by excludability and rivalry;",
+      "D": "may be positive or negative."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 28,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following solutions are not part of the ways of internalizing externalities:",
+    "raspunsuri": {
+      "A": "the imposition of fines on the producer of negative externalities;",
+      "B": "the introduction of taxes and duties that bring private costs to the level of social costs;",
+      "C": "closure of companies producing positive or negative externalities;",
+      "D": "the association of the negative externality manufacturer with the receptor of such an effect."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 29,
+    "materie": "Microeconomics",
+    "intrebare": "Normally, the natural economy is characterized by:",
+    "raspunsuri": {
+      "A": "price formation through complex mechanisms;",
+      "B": "perfect competition;",
+      "C": "the preponderance of product exchange;",
+      "D": "the satisfaction of the individual and community needs of its own production."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 30,
+    "materie": "Microeconomics",
+    "intrebare": "Which of the following features define human needs:",
+    "raspunsuri": {
+      "A": "are not concurrent;",
+      "B": "do not disappear momentarily if they are satisfied;",
+      "C": "are unlimited in capacity;",
+      "D": "are unlimited in number."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 31,
+    "materie": "Accounting",
+    "intrebare": "An entity’s equity represents:",
+    "raspunsuri": {
+      "A": "the main self-financing source for the entity’s assets;",
+      "B": "the monetary expression of the economic resources invested by the owners of the entity;",
+      "C": "the residual interest of the owners in the assets of the entity after deducting all liabilities;",
+      "D": "the value of that part of the company’s assets to which the owners are completely entitled."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 32,
+    "materie": "Accounting",
+    "intrebare": "An entity’s assets are defined as:",
+    "raspunsuri": {
+      "A": "resources controlled by the entity as a result of present events, which are expected to generate future economic benefits for the entity and have a cost that can be realistically assessed;",
+      "B": "resources controlled by the entity as a result of past events, which are expected to generate future economic benefits for the entity and have a cost that can be realistically assessed;",
+      "C": "resources controlled by the entity as a result of past events, which are expected to generate present economic benefits for the entity, and have a cost can be realistically assessed;",
+      "D": "resources controlled by the entity as a result of present events, which are expected to generate future economic benefits for the entity and have a cost that cannot be realistically assessed;"
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 33,
+    "materie": "Accounting",
+    "intrebare": "The gross income for the financial year is calculated according to the relation:",
+    "raspunsuri": {
+      "A": "operating income + current income;",
+      "B": "financial income + current income;",
+      "C": "operating income + financial income;",
+      "D": "net income + nondeductible expenses – nontaxable incomes."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 34,
+    "materie": "Accounting",
+    "intrebare": "The production cost of a fixed asset manufactured by an entity includes:",
+    "raspunsuri": {
+      "A": "direct production costs, indirect production costs, administrative and general expenses;",
+      "B": "acquisition costs of raw materials and direct consumables, other direct production costs, indirect costs rationally allocated to the manufacturing of that asset;",
+      "C": "direct production costs, indirect production costs, distribution costs;",
+      "D": "direct production costs, indirect production costs, interest payments."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 35,
+    "materie": "Accounting",
+    "intrebare": "The retail price (RP) of a product is calculated as follows:",
+    "raspunsuri": {
+      "A": "RP=acquisition cost + markup+ non-reclaimable VAT",
+      "B": "RP=purchase price + commission + non-reclaimable VAT;",
+      "C": "RP=wholesale price + markup + reclaimable VAT;",
+      "D": "no answer is correct."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 36,
+    "materie": "Accounting",
+    "intrebare": "The accounting of stocks according to the permanent inventory method involves:",
+    "raspunsuri": {
+      "A": "the recording of stock variation at the end of the reporting period;",
+      "B": "the non-recording of stock exits during the period;",
+      "C": "the recording of stock purchases as stock expenses;",
+      "D": "the recording of all stock entries and exits using stock accounts."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 37,
+    "materie": "Accounting",
+    "intrebare": "Deferred incomes are incomes for which the recording moment:",
+    "raspunsuri": {
+      "A": "coincides with the moment they are received;",
+      "B": "does not coincide with the moment they are received;",
+      "C": "they do not involve any receipts;",
+      "D": "no answer is correct."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 38,
+    "materie": "Accounting",
+    "intrebare": "Regarding the “Customers” account for January, the following information is available: total accounts receivable 250.000 lei, out of which the beginning accounts receivable balance is 50.000. The ending accounts receivable balance is 20.000. Calculate the value of sales to customers and the value of cash receipts from customers in January:",
+    "raspunsuri": {
+      "A": "Sales = 320.000 lei, Receipts = 300.000 lei;",
+      "B": "Sales = 300.000 lei, Receipts = 320.000 lei;",
+      "C": "Sales = 230.000 lei, Receipts = 200.000 lei;",
+      "D": "Sales = 200.000 lei, Receipts = 230.000 lei;"
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 39,
+    "materie": "Accounting",
+    "intrebare": "A company has purchased a manufacturing installation in the following conditions: purchase price 30.000 lei, VAT 19%; expenses with the transport of the installation from the supplier to destination 900 lei; expenses with the preparation of the site where the installation will be placed (the installation must be fixed on a concrete stand with an angle of inclination of 12 degrees) 2.000 lei; the fee paid to the engineer in charge of the design and measurement of the site 1.500 lei. The company pays VAT and receives a 10% discount from the supplier. The acquisition cost of the manufacturing installation is:",
+    "raspunsuri": {
+      "A": "36.530 lei;",
+      "B": "31.400 lei;",
+      "C": "34.530 lei;",
+      "D": "33.030 lei."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 40,
+    "materie": "Accounting",
+    "intrebare": "Which of the following types of incomes are entirely included in the company’s net turnover:",
+    "raspunsuri": {
+      "A": "sold production, sales of goods and services, incomes from operating subsidies relating to turnover, incomes from interest payments recorded by entities which have stopped operating but are still running leasing contracts;",
+      "B": "sales of goods and services, sales of finished products, stock variation, incomes from operating subsidies relating to turnover, incomes from works and service provision, incomes from interest payments recorded by entities which have stopped operating but are still running leasing contracts;",
+      "C": "sales of goods and services, stock variation, sales of unfinished products, incomes from operating subsidies relating to turnover, incomes from interest payments recorded by entities which have stopped operating but are still running leasing contracts;",
+      "D": "sold production, sales of goods and services, incomes from operating subsidies relating to turnover, incomes from interest payments recorded by entities which have stopped operating but are still running leasing contracts, trade discounts;"
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 41,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "Company „A” has decided to launch a new product into a new market. Competition is very intense and the market is attractive. Which marketing strategy should the company adopt in order to launch its product?",
+    "raspunsuri": {
+      "A": "the slow „skimming” strategy;",
+      "B": "the fast „penetration” strategy;",
+      "C": "the fast „skimming” strategy;",
+      "D": "the slow „penetration” strategy."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 42,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "Company „A” wants to start manufacturing a new product during the current year in order to expand its product range. It also intends to use a strategy of quality differentiation from its competitors. Which product strategy is it going to adopt?",
+    "raspunsuri": {
+      "A": "the strategy of horizontal differentiation, of quality differentiation from competitors’ offerings, and of product improvement;",
+      "B": "the strategy of lateral differentiation, of quality differentiation from competitors’ offerings, and of new product introduction;",
+      "C": "the strategy of vertical differentiation, of quality differentiation from competitors’ offerings, and of new product introduction;",
+      "D": "the strategy of selection, of quality differentiation from competitors’ offerings, and of product improvement;"
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 43,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "The main objective of a company’s pricing strategy is:",
+    "raspunsuri": {
+      "A": "to increase sales;",
+      "B": "to achieve profitability;",
+      "C": "to build customer loyalty;",
+      "D": "to differentiate itself from the competition."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 44,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "As participants in the distribution process, providers of functional services:",
+    "raspunsuri": {
+      "A": "facilitate distribution;",
+      "B": "own the merchandise;",
+      "C": "are not involved in the sale and purchase of merchandise;",
+      "D": "are not involved in the logistics of merchandise."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 45,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "According to the message type, advertising can be:",
+    "raspunsuri": {
+      "A": "brand, emotional;",
+      "B": "factual, institutional;",
+      "C": "emotional, factual;",
+      "D": "brand, institutional."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 46,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "The strategy to improve the quality of the product is specific to:",
+    "raspunsuri": {
+      "A": "the product development stage;",
+      "B": "the product maturity stage;",
+      "C": "the product decline stage;",
+      "D": "the product introduction stage."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 47,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "The main marketing objective for a product in the growth stage of its life cycle must be:",
+    "raspunsuri": {
+      "A": "to maximize its market share;",
+      "B": "to maximize profit;",
+      "C": "to reduce costs;",
+      "D": "to inform consumers."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 48,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "Which of the following is not a component of the company’s microenvironment:",
+    "raspunsuri": {
+      "A": "labour providers;",
+      "B": "legislation;",
+      "C": "public bodies;",
+      "D": "suppliers."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 49,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "The market information function of marketing is:",
+    "raspunsuri": {
+      "A": "to maximize economic efficiency;",
+      "B": "to meet consumers’ needs;",
+      "C": "to connect the company to the economic and social environment;",
+      "D": "to research the market and consumers’ needs."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 50,
+    "materie": "Fundamentals Of Marketing",
+    "intrebare": "Competition between two companies that offer identical products meant to meet the same needs is called:",
+    "raspunsuri": {
+      "A": "enterprise competition;",
+      "B": "brand competition;",
+      "C": "formal competition;",
+      "D": "generic competition."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 51,
+    "materie": "Finance",
+    "intrebare": "How do we calculate the value of a single sum of money? a. VP = VV * 1 / (1 + r)n; b. VP = VV * FA ; r,n c. VP = VV * (1 + r)n; d. VP = VV * FC r,n.",
+    "raspunsuri": {
+      "A": "(a, d)",
+      "B": "(a, b)",
+      "C": "(d)",
+      "D": "(c, d)"
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 52,
+    "materie": "Finance",
+    "intrebare": "A company’s own internal sources (or self-financing) represent financial capacities set up by the company involved taking into account a. profit b. long term loans c. provisions d. capital add-ons e. depreciation f. short term loans",
+    "raspunsuri": {
+      "A": "(a, c, e)",
+      "B": "(b, c, d, f)",
+      "C": "(d, e, f)",
+      "D": "(a)"
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 53,
+    "materie": "Finance",
+    "intrebare": "What elements make up the total capital of the company? a. equity and permanent capital b. permanent capital and short term debts c. permanent capital and the medium and long term debts d. equity, short term and medium and long term debts",
+    "raspunsuri": {
+      "A": "(d)",
+      "B": "(a)",
+      "C": "(c)",
+      "D": "(b, d)"
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 54,
+    "materie": "Finance",
+    "intrebare": "The increase of share capital can have as sources: a. new contributions in cash or in kind of shareholders b. increase in company sales c. incorporation of reserves d. increase of profit obtained by the company e. conversion of debts in share capital contribution",
+    "raspunsuri": {
+      "A": "(a)",
+      "B": "(b, c)",
+      "C": "(d)",
+      "D": "(a, c, e)"
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 55,
+    "materie": "Finance",
+    "intrebare": "Bond financing loan is: a. a credit granted by a mass of debtors to a single creditor b. a credit granted by a debtor to more creditors c. a credit granted by a creditor to more debtors d. a credit granted by more creditors to a single debtor",
+    "raspunsuri": {
+      "A": "(a)",
+      "B": "(b)",
+      "C": "(c)",
+      "D": "(d)"
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 56,
+    "materie": "Finance",
+    "intrebare": "What does the economic duration time of an investment represents? a. the duration of juridical protection on the equity of ownership on investment goods b. the period of full recovery of the initial value of the investment through depreciation c. duration time determined by the technical functional characteristics specific for each investment merchandise d. duration time when the investment produces favorable cash flows",
+    "raspunsuri": {
+      "A": "(a)",
+      "B": "(b)",
+      "C": "(d)",
+      "D": "(c)"
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 57,
+    "materie": "Finance",
+    "intrebare": "Economic rate of return is given by: a. the ratio between total assets and debts b. the ratio between profit and total assets c. the ratio between equity and profit d. the ratio between profit and permanent capital",
+    "raspunsuri": {
+      "A": "(a)",
+      "B": "(b)",
+      "C": "(d)",
+      "D": "(c)"
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 58,
+    "materie": "Finance",
+    "intrebare": "Financial rate of return represents: a. return on equity b. ratio between profit and total assets c. ratio between profit and permanent capital d. the ratio between equity and profit",
+    "raspunsuri": {
+      "A": "(a)",
+      "B": "(c)",
+      "C": "(d)",
+      "D": "(b)"
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 59,
+    "materie": "Finance",
+    "intrebare": "Which of the following is the formula of Value Added (as an intermediate balance of administration): a. Commercial margin + year production - consumption from the third parties b. Gross Surplus of Exploitation + operating subsidies - taxes, duties and assimilated payments - expenses with the staff c. Gross Surplus of Exploitation + other operating income - other operating expenses - (depreciation + provisions) d. Goods sales - the cost of the goods sold",
+    "raspunsuri": {
+      "A": "(a)",
+      "B": "(b)",
+      "C": "(d)",
+      "D": "(c)"
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 60,
+    "materie": "Finance",
+    "intrebare": "Which of the following is the formula of calculating the Gross Surplus of Exploitation (as an intermediate balance of administration): a. Commercial margin + year production - consumption from the third parties b. Value Added+ operating subsidies - taxes, duties and assimilated payments - expenses with the staff c. Value Added + other operating income - other operating expenses - (depreciation + provisions d. Goods sales - the cost of the goods sold.",
+    "raspunsuri": {
+      "A": "(a)",
+      "B": "(c)",
+      "C": "(d)",
+      "D": "(b)"
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 61,
+    "materie": "Management",
+    "intrebare": "All of the company’s elements that have a decisional, organizing, informational, motivational character, and through which the entire set of management processes and relationships are being exercised in order to achieve the best efficiency and the highest effectiveness – defines:",
+    "raspunsuri": {
+      "A": "the management system of the company;",
+      "B": "the art of management;",
+      "C": "scientific management;",
+      "D": "the science of management"
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 62,
+    "materie": "Management",
+    "intrebare": "The decision that has direct consequences on the decisions, actions and behaviors of at least another person- is a decision:",
+    "raspunsuri": {
+      "A": "operational;",
+      "B": "managerial;",
+      "C": "strategic;",
+      "D": "tactic."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 63,
+    "materie": "Management",
+    "intrebare": "The key constitutive elements of the decisional situation are:",
+    "raspunsuri": {
+      "A": "the decision maker and the decisional environment;",
+      "B": "the management system of the company;",
+      "C": "the quality of the information available;",
+      "D": "the characteristics of the decision making process in the company."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 64,
+    "materie": "Management",
+    "intrebare": "The golden triangle of organizing refers to the judicious connection of: a. tasks; b. activities; c. duties; d. competencies; e. responsibilities.",
+    "raspunsuri": {
+      "A": "a, b, c;",
+      "B": "b, c, d;",
+      "C": "c, d, e;",
+      "D": "a, d, e."
+    },
+    "raspuns_corect": "D"
+  },
+  {
+    "numar": 65,
+    "materie": "Management",
+    "intrebare": "The functional areas of the company are: a. research-development; b. finance-accounting; c. commercial; d. organizing; e. planning; f. motivating; g. control-evaluation; h. human resources; i. coordinating; j. manufacturing/operations",
+    "raspunsuri": {
+      "A": "a, b, c, d, e;",
+      "B": "a, b, c, h, j;",
+      "C": "f, g, h, i, j;",
+      "D": "d, e, f, g, i."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 66,
+    "materie": "Management",
+    "intrebare": "The number of employees a manager can efficiently and effectively manage represents:",
+    "raspunsuri": {
+      "A": "span of control;",
+      "B": "position;",
+      "C": "department;",
+      "D": "organizational level."
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 67,
+    "materie": "Management",
+    "intrebare": "The trajectory an information or a category of information follows between the sender and the receiver defines:",
+    "raspunsuri": {
+      "A": "informational procedure;",
+      "B": "informational flux;",
+      "C": "information circuit;",
+      "D": "means of information handling."
+    },
+    "raspuns_corect": "C"
+  },
+  {
+    "numar": 68,
+    "materie": "Management",
+    "intrebare": "The method used in management that consists in identifying the strengths and the weaknesses of the analysed area together with their respective causes, and that is finalized by making corrective or developmental suggestions – is named as:",
+    "raspunsuri": {
+      "A": "diagnosis;",
+      "B": "brainstorming;",
+      "C": "Delphi;",
+      "D": "Dashboard"
+    },
+    "raspuns_corect": "A"
+  },
+  {
+    "numar": 69,
+    "materie": "Management",
+    "intrebare": "The entrepreneurial-managerial method of designing and promoting a new business or of significantly developing an existing one, method that starts with identifying an economic opportunity and by which one determines the objectives that are to be accomplished, sizes and structures the main resources and activities, aiming to prove that it can be profitable and it is worth to be supported by the potential stakeholders – is:",
+    "raspunsuri": {
+      "A": "dashboard;",
+      "B": "business plan;",
+      "C": "discovery matrix;",
+      "D": "project-based management."
+    },
+    "raspuns_corect": "B"
+  },
+  {
+    "numar": 70,
+    "materie": "Management",
+    "intrebare": "The major deficiencies in the communication process (the most significant barriers to communication) can be: a. of language,expression; b. receiving; c. contextual; d. mixed.",
+    "raspunsuri": {
+      "A": "a, b, c, d;",
+      "B": "a, b, c;",
+      "C": "b, c, d;",
+      "D": "a, b, d."
+    },
+    "raspuns_corect": "A"
+  }
+]
